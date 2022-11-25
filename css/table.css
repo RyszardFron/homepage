@@ -1,0 +1,44 @@
+.tableContainer__title {
+    margin: 10px auto;
+    color: #8b661b;
+    font-weight: normal;
+  }
+  
+  .table {
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table__caption {
+    caption-side: bottom;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .table__cell {
+    border: 1px solid #151414;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table__cell--header {
+    background-color: #a4720d;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .table__row:nth-child(odd) {
+    background-color: #eee;
+  }
+  
+  .table__row:hover {
+    background-color: #c3bebe;
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+  }
+  

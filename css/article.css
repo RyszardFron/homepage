@@ -1,0 +1,32 @@
+.article {
+  margin: 50px auto;
+  border: 1px solid #8b661b;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 30px 30px 50px;
+  box-shadow: 3px 3px 10px 0px #a27720;
+}
+
+.article__heading {
+  color: #8b661b;
+  font-weight: normal;
+  text-shadow: 1px 1px 5px #bdbaba;
+}
+
+.article__paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.article__span {
+  font-weight: bold;
+}
+
+.article__list {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.article__listItem {
+  list-style: square;
+}

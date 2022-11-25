@@ -1,0 +1,68 @@
+.section {
+  margin: 75px auto;
+  border: 1px solid #8b661b;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 30px 30px 50px;
+  box-shadow: 3px 3px 10px 0px #a27720;
+}
+
+.section__header {
+  margin: 10px auto;
+  color: #8b661b;
+  font-weight: bold;
+}
+
+.section__paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.section__paragraph--italic {
+  font-size: 25px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.section__image {
+  width: 100%;
+  width: 180px;
+  margin: 20px auto;
+  box-shadow: 3px 3px 10px 0px #a27720;
+  border-radius: 10px;
+}
+
+.section__important--span {
+  color: #8b661b;
+  font-weight: bold;
+}
+
+.section__link {
+  background-color: #be8d29;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.section__link:visited {
+  background-color: #7b5813;
+}
+
+.section__link:focus {
+  outline: 2px solid;
+}
+
+.section__link:hover {
+  background-color: #d9a53e;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.section__link:active {
+  background-color: #daa520;
+}
+
+.section__download {
+  color: #8b661bed;
+  font-weight: bold;
+}

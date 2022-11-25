@@ -1,0 +1,14 @@
+.contact {
+    color: #8b661b;
+  }
+  
+  .contact__heading {
+    margin: 10px auto;
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  .contact__link {
+    color: #8b661b;
+    text-decoration: none;
+  }
