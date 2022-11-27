@@ -1,6 +1,6 @@
 .tableContainer__title {
     margin: 10px auto;
-    color: #8b661b;
+    color: #563a02;
     font-weight: normal;
   }
   
@@ -25,7 +25,7 @@
   }
   
   .table__cell--header {
-    background-color: #a4720d;
+    background-color: #563a02;
     color: white;
     font-weight: normal;
   }

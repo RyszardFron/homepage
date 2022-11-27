@@ -4,12 +4,12 @@
   border-radius: 10px;
   background-color: #fff;
   padding: 20px 30px 30px 50px;
-  box-shadow: 3px 3px 10px 0px #a27720;
+  box-shadow: 3px 3px 10px 0px #563a02;
 }
 
 .section__header {
   margin: 10px auto;
-  color: #8b661b;
+  color: #6b4903;
   font-weight: bold;
 }
 
@@ -25,15 +25,14 @@
 }
 
 .section__image {
-  width: 100%;
-  width: 180px;
+  max-width: 300px;
   margin: 20px auto;
-  box-shadow: 3px 3px 10px 0px #a27720;
+  box-shadow: 3px 3px 10px 0px #563a02;
   border-radius: 10px;
 }
 
 .section__important--span {
-  color: #8b661b;
+  color: #563a02;
   font-weight: bold;
 }
 
@@ -45,7 +44,7 @@
 }
 
 .section__link:visited {
-  background-color: #7b5813;
+  background-color: #563a02;
 }
 
 .section__link:focus {
@@ -63,6 +62,6 @@
 }
 
 .section__download {
-  color: #8b661bed;
+  color: #563a02;
   font-weight: bold;
 }
