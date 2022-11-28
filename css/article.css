@@ -8,9 +8,8 @@
 }
 
 .article__heading {
-  color: #563a02;
-  font-weight: normal;
-  text-shadow: 1px 1px 5px #bdbaba;
+  font-weight: bold;
+ 
 }
 
 .article__paragraph {

@@ -9,7 +9,6 @@
 
 .section__header {
   margin: 10px auto;
-  color: #6b4903;
   font-weight: bold;
 }
 
@@ -19,7 +18,7 @@
 }
 
 .section__paragraph--italic {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.5;
   font-style: italic;
 }
@@ -31,20 +30,15 @@
   border-radius: 10px;
 }
 
-.section__important--span {
-  color: #563a02;
-  font-weight: bold;
-}
-
 .section__link {
-  background-color: #be8d29;
+  background-color: #e7cf16a3;
   color: white;
   text-decoration: none;
   padding: 5px 10px;
 }
 
 .section__link:visited {
-  background-color: #563a02;
+  background-color: #ff0000;
 }
 
 .section__link:focus {
@@ -52,7 +46,7 @@
 }
 
 .section__link:hover {
-  background-color: #d9a53e;
+  background-color: #0000ff;
   border-bottom: 1px solid;
   outline: none;
 }
@@ -62,6 +56,6 @@
 }
 
 .section__download {
-  color: #563a02;
+  color: #0000ff;
   font-weight: bold;
 }

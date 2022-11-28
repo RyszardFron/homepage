@@ -1,7 +1,6 @@
 .tableContainer__title {
     margin: 10px auto;
-    color: #563a02;
-    font-weight: normal;
+    font-weight: bold;
   }
   
   .table {
@@ -25,7 +24,7 @@
   }
   
   .table__cell--header {
-    background-color: #563a02;
+    background-color: #dc143c;
     color: white;
     font-weight: normal;
   }
