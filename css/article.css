@@ -5,6 +5,8 @@
   background-color: #fff;
   padding: 10px 30px 30px 50px;
   box-shadow: 3px 3px 10px 0px #563a02;
+  text-align: justify;
+  word-break: break-word;
 }
 
 .article__heading {
