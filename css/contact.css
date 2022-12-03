@@ -1,11 +1,12 @@
   .contact__heading {
+    color: #fff;
     margin: 10px auto;
     font-weight: bold;
     font-size: 30px;
   }
 
   .contact__link {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
   }

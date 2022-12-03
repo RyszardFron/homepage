@@ -11,32 +11,36 @@ html {
 body {
   max-width: 1000px;
   margin: auto;
-  background-color:#0000ff2b;
   padding: 40px;
   font-family: "Lato", sans-serif;
+  background-image: url("../images/clouds.png");
+  background-size: cover;
 }
 
 .header {
+  color:#fff;
   margin: 20px auto;
   font-weight: bold;
-  }
+}
 
 .button {
   color: white;
   padding: 5px;
   margin: 20px auto;
   font-size: 10px;
-  background-color: #02258d90;
+  background-color: #02258d;
   border: 1px solid #02258d90;
   border-radius: 10px;
   box-shadow: 3px 3px 10px 0px #563a02;
 }
 
 .dark {
-  background: #535050;
+  background-image: url("../images/fire.png");
+  background-size: cover;
 }
 
 .title {
+  color:#fff;
   margin: 10px auto;
   text-shadow: 1px 1px 3px #563a02;
   font-weight: normal;
@@ -51,14 +55,11 @@ body {
 }
 
 .footer {
-    margin: 75px auto;
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    background-color: #02258d90;
-    border: 1px solid #8b661b;
-    border-radius: 10px;
-  }
-
-
-
+  margin: 75px auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #02258d;
+  border: 1px solid #8b661b;
+  border-radius: 10px;
+}
