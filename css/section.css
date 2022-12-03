@@ -24,6 +24,11 @@
 }
 
 .section__image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section__image--scene {
   max-width: 300px;
   margin: 20px auto;
   box-shadow: 3px 3px 10px 0px #563a02;
