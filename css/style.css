@@ -9,12 +9,13 @@ html {
 }
 
 body {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding: 40px;
   font-family: "Lato", sans-serif;
   background-image: url("../images/clouds.png");
   background-size: cover;
+  
 }
 
 .header {
@@ -54,12 +55,4 @@ body {
   border-radius: 10px;
 }
 
-.footer {
-  margin: 75px auto;
-  padding: 10px;
-  color: #fff;
-  text-align: center;
-  background-color: #02258d;
-  border: 1px solid #8b661b;
-  border-radius: 10px;
-}
+
