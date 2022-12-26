@@ -1,10 +1,11 @@
 {
   const welcome = () => {
-    console.log("Witam wszystkich zaineresowanych :)");
+    console.log("Witam wszystkich zainteresowanych :)");
   };
 
   const toggleBackground = () => {
     const body = document.querySelector(".body");
+    const themeName = document.querySelector(".button__text");
         
     body.classList.toggle("dark");
     themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
