@@ -7,10 +7,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-content: center;
+   }
 }
 
 .navigation__link {
   padding: 20px;
   color: #fff;
   text-decoration: none;
+
 }
