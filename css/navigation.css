@@ -1,8 +1,4 @@
 .navigation {
-  background-color: #02258d;
-  border: 1px solid #8b661b;
-  box-shadow: 3px 3px 10px 0px #563a02;
-  border-radius: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -13,13 +9,25 @@
 @media (max-width: 768px) {
   .navigation {
     flex-direction: column;
-    align-content: center;
-   }
+    align-content: stretch;
+    }
 }
 
 .navigation__link {
-  padding: 20px;
+  background-color: #02258d;
+  border: 1px solid #8b661b;
+  box-shadow: 3px 3px 10px 0px #563a02;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
   color: #fff;
   text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+  transition: 1s;
+}
 
+.navigation__link:hover {
+  background: hsl(225, 97%, 50%);
+  transform: scale(1.1);
 }
