@@ -22,6 +22,7 @@ body {
   color:#fff;
   margin: 20px auto;
   font-weight: bold;
+  text-shadow: 1px 1px 3px #563a02;
 }
 
 .button {
