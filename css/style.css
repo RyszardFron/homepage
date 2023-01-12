@@ -15,11 +15,11 @@ body {
   font-family: "Lato", sans-serif;
   background-image: url("../images/clouds.png");
   background-size: cover;
-  
+
 }
 
 .header {
-  color:#fff;
+  color: #fff;
   margin: 20px auto;
   font-weight: bold;
   text-shadow: 1px 1px 3px #563a02;
@@ -34,6 +34,12 @@ body {
   border: 1px solid #02258d90;
   border-radius: 10px;
   box-shadow: 3px 3px 10px 0px #563a02;
+  transition: 1s;
+}
+
+.button:hover {
+  background: hsl(225, 97%, 50%);
+  transform: scale(1.1);
 }
 
 .dark {
@@ -42,7 +48,7 @@ body {
 }
 
 .title {
-  color:#fff;
+  color: #fff;
   margin: 10px auto;
   text-shadow: 1px 1px 3px #563a02;
   font-weight: normal;
@@ -55,5 +61,3 @@ body {
   box-shadow: 3px 3px 10px 0px #563a02;
   border-radius: 10px;
 }
-
-
