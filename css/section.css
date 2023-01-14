@@ -31,11 +31,18 @@
 }
 
 .section__image--scene {
-  max-width: 300px;
+  max-width: 200px;
   margin: 20px auto;
   box-shadow: 3px 3px 10px 0px #563a02;
   border-radius: 10px;
+  transition: 1s;
 }
+
+.section__image--scene:hover {
+transform: scale(2);
+}
+
+
 
 .section__link {
   background-color: #e7cf16a3;
