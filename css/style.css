@@ -55,9 +55,22 @@ body {
   font-size: 50px;
 }
 
-.main__image {
+.image {
   max-width: 250px;
-  margin: 20px auto;
+  height: 250px;
+  border: 10px solid #02258d;
+  background-image: url("../images/ryszardFron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   box-shadow: 3px 3px 10px 0px #563a02;
   border-radius: 10px;
+  transition: 1s;
 }
+
+
+.image:hover {
+  transform: translatex(100%) rotate(360deg) scale(1.1);
+  border-color: hsl(225, 96%, 50%);
+  background-image: url("../images/J16.png");
+  }
