@@ -1,11 +1,21 @@
 .article {
-  margin:  auto;
+ display:flex;
+ align-content:flex-start;
+  margin: 20px auto 75px;
   border: none;
   background-color: hsl(0, 0%, 100%);
-  padding: 10px 30px 30px 50px;
+  padding: 30px;
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
   text-align: justify;
   word-break: break-word;
+}
+
+.article__image {
+  max-width: 250px;
+  margin: 30px;
+  background-position: center;
+  box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
+  border-radius: 10px;
 }
 
 .article__heading {
@@ -14,19 +24,10 @@
 }
 
 .article__paragraph {
+  padding: 20px;
   font-size: 20px;
   line-height: 1.5;
 }
 
-.article__span {
-  font-weight: bold;
-}
 
-.article__list {
-  font-size: 20px;
-  line-height: 1.5;
-}
 
-.article__listItem {
-  list-style: square;
-}

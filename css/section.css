@@ -1,7 +1,6 @@
 .section {
   margin: 75px auto;
   border: none;
-  border-radius: 10px;
   background-color: #fff;
   padding: 20px 30px 30px 50px;
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
@@ -23,6 +22,15 @@
   font-size: 20px;
   line-height: 1.5;
   font-style: italic;
+}
+
+.section__list {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.section__listItem {
+  list-style: square;
 }
 
 .section__image {
