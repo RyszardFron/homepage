@@ -11,6 +11,8 @@
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
   <link href="css/navigation.css" rel="stylesheet">
   <link href="css/article.css" rel="stylesheet">
   <link href="css/section.css" rel="stylesheet">
@@ -26,26 +28,35 @@
 </head>
 
 <body class="body">
-  <header class="header">KILKA SŁÓW O MNIE</header>
-  <nav class="navigation">
 
+  <header class="header">
+    <div class="header__text">Rich<span class="header__textItem">Dev</span>
+      <span class="header__textName">Ryszard Froń</span>
+    </div>
+    <div class="button">
+      <button class="button__button js-button">Włącz <span class="button__text"> ciemny </span> motyw</button>
+    </div>
+  </header>
+
+  <nav class="navigation">
     <a class="navigation__link" href="#aboutMe">O mnie</a>
     <a class="navigation__link" href="#interested">Zainteresowania</a>
     <a class="navigation__link" href="#bee">Pszczelarstwo</a>
     <a class="navigation__link" href="#paragliding">Paralotniarstwo</a>
     <a class="navigation__link" href="#contact">Kontakt</a>
-
   </nav>
-  <button class="button js-button">Włącz <span class="button__text">ciemny</span> motyw</button>
-  <h1 class="title">Ryszard Froń</h1>
-  <div class="image"></div>
+
+
   <article class="article">
-    <h2 id="aboutMe" class="article__heading">OGÓLNIE O MNIE</h2>
-    <p class="article__paragraph">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, ex aliquam itaque, consequuntur incidunt quos hic
+    <h1 id="aboutMe" class="intro__articleHeading">Ryszard Froń</h1>
+    <img class="intro__image" src="images/ryszardfron.jpg" alt="ryszard Froń"></a>
+    <p class="intro__articleParagraph">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, ex aliquam itaque, consequuntur incidunt quos
+      hic
       dolor delectus repellat tenetur, ipsa eius quia excepturi veritatis a est labore eaque odio.
     </p>
   </article>
+
   <article class="article">
     <h2 id="interested" class="article__heading">KRÓTKO O ZAINTERESOWANIACH</h2>
     <p class="article__paragraph">
@@ -61,6 +72,7 @@
       Jak to wyjdzie - <span class="article__span">ZOBACZYMY, czas pokaże</span>.
     </p>
   </article>
+
   <section class="section">
     <h3 id="bee" class="section__header">PSZCZELARSTWO</h3>
     <p class="section__paragraph">
@@ -114,6 +126,7 @@
       </table>
     </div>
   </section>
+
   <section class="section">
     <h3 id="paragliding" class="section__header">PARALOTNIARSTWO</h3>
     <p class="section__paragraph">
@@ -136,6 +149,7 @@
         paralotniarza</a>😎
     </p>
   </section>
+
   <div class="contact">
     <h2 id="contact" class="contact__heading">KONTAKT</h2>
     <p>
@@ -145,7 +159,9 @@
       <a class="contact__link" href="tel:+48.000 000 000">tel. 000 000 000</a>
     </p>
   </div>
+
   <footer class="footer">Wszelkie prawa zastrzeżone</footer>
+
 </body>
 
 </html>
