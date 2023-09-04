@@ -9,52 +9,36 @@ html {
 }
 
 body {
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px;
   font-family: "Montserrat", sans-serif;
-  background-color: hsl(0, 0%, 84%);
+  background-color: #85888f;
 }
 
-.header {
-  margin: 20px auto;
-  font-weight: bold;
+
+
+.intro {
+  display:flex;
+  justify-items: center;
 }
 
-.button {
-  color: white;
-  padding: 5px;
-  margin: 20px auto;
-  font-size: 10px;
-  background-color: black;
-  border-radius: 10px;
-  border: none;
-  box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
-  transition: 0.5s;
-}
 
-.button:hover {
-  background: hsl(0, 0%, 40%);
-  transform: scale(1.05);
-}
-
-.dark {
-  background-color: rgb(75, 75, 75);
-}
-
-.title {
-  margin: 10px auto;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.image {
-  max-width: 300px;
-  height: 300px;
-  background-image: url("../images/ryszardFron.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.intro__image {
+  max-width: 250px;
   background-position: center;
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
   border-radius: 10px;
+}
+
+.intro__article {
+  margin: px auto;
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px 30px 30px 50px;
+  text-align: justify;
+  word-break: break-word;
+}
+
+
+.intro__articleParagraph {
+  font-size: 20px;
+  line-height: 1.5;
 }

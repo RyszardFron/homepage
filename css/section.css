@@ -1,10 +1,10 @@
 .section {
   margin: 75px auto;
-  border: 1px solid #8b661b;
+  border: none;
   border-radius: 10px;
   background-color: #fff;
   padding: 20px 30px 30px 50px;
-  box-shadow: 3px 3px 10px 0px #563a02;
+  box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
   text-align: justify;
   word-break: break-word;
 }

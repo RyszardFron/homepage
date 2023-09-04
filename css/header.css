@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 20px;
+  }
+
+  .header__textItem {
+    color: #ff0000;
+  }
+
+  .header__textName {
+    font-size: 20px;
+  }
