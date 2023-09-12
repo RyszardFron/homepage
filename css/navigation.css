@@ -1,9 +1,9 @@
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content:space-around ;
+  justify-content: space-around;
   margin: 10px auto;
- 
+
 }
 
 .navigation__link {
@@ -18,4 +18,8 @@
 .navigation__link:hover {
   transform: scale(1.4);
 
+}
+
+.navigation__dark {
+  background: red;
 }

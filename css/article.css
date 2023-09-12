@@ -12,6 +12,7 @@
 
 .article__image {
   max-width: 250px;
+  max-height: 250px;
   margin: 30px;
   background-position: center;
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
