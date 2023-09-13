@@ -47,10 +47,8 @@
 }
 
 .section__image--scene:hover {
-transform: scale(2);
+  transform: scale(2);
 }
-
-
 
 .section__link {
   background-color: #e7cf16a3;
@@ -88,5 +86,20 @@ transform: scale(2);
 
 .section__element {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.section__item {
+  max-width: 200px;
+  padding: 10px;
+  background: #5d81ed;
+  color: white;
+  border-radius: 5%;
+  transition: 0.5s;
+ 
+}
+.section__item:hover{
+   transform:scale(1.1);
 }
