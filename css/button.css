@@ -16,7 +16,7 @@
   }
   
   .button__button:hover {
-    background: hsl(225, 97%, 50%);
+    background: #0442fb;
     transform: scale(1.05);
   }
   
