@@ -81,3 +81,7 @@ transform: scale(2);
   color: #0000ff;
   font-weight: bold;
 }
+
+.section__dark {
+  background: grey;
+}

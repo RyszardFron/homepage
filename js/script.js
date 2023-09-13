@@ -18,10 +18,25 @@
     })
   };
 
+  const articleChangeBack = () => {
+    const article = document.querySelector(".article");
+    article.classList.toggle("article__dark");
+  };
+
+  const sectionChangeBack = () => {
+    const sectionBackground = document.querySelectorAll(".section");
+    sectionBackground.forEach(sectionBack => {
+      sectionBack.classList.toggle("section__dark");
+    })
+  };
+
+
   const init = () => {
     const changeBackgroundButton = document.querySelector(".button");
     changeBackgroundButton.addEventListener("click", toggleBackground);
     changeBackgroundButton.addEventListener("click", navigationChangeBack);
+    changeBackgroundButton.addEventListener("click", articleChangeBack);
+    changeBackgroundButton.addEventListener("click", sectionChangeBack);
 
     welcome()
   };
