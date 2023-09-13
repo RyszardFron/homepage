@@ -85,3 +85,8 @@ transform: scale(2);
 .section__dark {
   background: grey;
 }
+
+.section__element {
+  display: flex;
+flex-direction: row;
+}
