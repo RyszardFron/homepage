@@ -3,7 +3,7 @@
     console.log("Hello world!");
   };
 
-  const toggleBackground = () => {
+  const bodyChangeBack = () => {
     const body = document.querySelector(".body");
     const themeName = document.querySelector(".button__text");
 
@@ -33,7 +33,7 @@
 
   const init = () => {
     const changeBackgroundButton = document.querySelector(".button");
-    changeBackgroundButton.addEventListener("click", toggleBackground);
+    changeBackgroundButton.addEventListener("click", bodyChangeBack);
     changeBackgroundButton.addEventListener("click", navigationChangeBack);
     changeBackgroundButton.addEventListener("click", articleChangeBack);
     changeBackgroundButton.addEventListener("click", sectionChangeBack);
