@@ -1,6 +1,6 @@
 .article {
- display:flex;
- align-content:flex-start;
+  display: flex;
+  align-content: center;
   margin: 20px auto 75px;
   border: none;
   background-color: hsl(0, 0%, 100%);
@@ -21,16 +21,15 @@
 
 .article__heading {
   font-weight: bold;
- 
+
 }
 
 .article__paragraph {
   padding: 20px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .article__dark {
   background: grey;
 }
-

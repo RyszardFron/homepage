@@ -14,18 +14,18 @@
 }
 
 .section__paragraph {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .section__paragraph--italic {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   font-style: italic;
 }
 
 .section__list {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -87,19 +87,21 @@
 .section__element {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .section__item {
-  max-width: 200px;
+  flex-basis: 300px;
   padding: 10px;
   background: #5d81ed;
   color: white;
-  border-radius: 5%;
+  text-align: center;
+  border-radius: 10%;
   transition: 0.5s;
- 
+
 }
-.section__item:hover{
-   transform:scale(1.1);
+
+.section__item:hover {
+  transform: scale(1.1);
 }
