@@ -8,19 +8,19 @@
 }
 
 .navigation__link {
-  background-color: #85888f;
+  background-color: #e4e6eb;
   border: none;
   padding: 15px;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   transition: 0.5s;
 }
 
 .navigation__link:hover {
   transform: scale(1.4);
-
 }
 
 .navigation__dark {
   background-color: #2c2f36;
+  color:#e4e6eb
 }
