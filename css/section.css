@@ -51,14 +51,14 @@
 }
 
 .section__link {
-  background-color: #e7cf16a3;
+  background-color: #7b7a71a3;
   color: white;
   text-decoration: none;
   padding: 5px 10px;
 }
 
 .section__link:visited {
-  background-color: #ff0000;
+  background-color: #b46262;
 }
 
 .section__link:focus {
@@ -66,13 +66,13 @@
 }
 
 .section__link:hover {
-  background-color: #0000ff;
+  background-color: #0000ff66;
   border-bottom: 1px solid;
   outline: none;
 }
 
 .section__link:active {
-  background-color: #daa520;
+  background-color: #7c7b7a;
 }
 
 .section__download {
@@ -94,12 +94,11 @@
 .section__item {
   flex-basis: 300px;
   padding: 10px;
-  background: #5d81ed;
+  background: #112152;
   color: white;
   text-align: center;
   border-radius: 10%;
   transition: 0.5s;
-
 }
 
 .section__item:hover {

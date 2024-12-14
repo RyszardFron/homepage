@@ -1,7 +1,7 @@
 .article {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content:center;
   text-align: justify;
   word-break: break-word;
   margin: 20px auto 75px;
@@ -9,20 +9,17 @@
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
- 
 }
 
 .article__image {
   align-self: center;
   margin: 30px;
-
   box-shadow: 3px 3px 10px 0px hsl(0, 0%, 30%);
   border-radius: 10px;
 }
 
 .article__heading {
   font-weight: bold;
-
 }
 
 .article__paragraph {
