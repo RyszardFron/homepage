@@ -55,6 +55,7 @@
   color: white;
   text-decoration: none;
   padding: 5px 10px;
+  margin: auto;
 }
 
 .section__link:visited {
@@ -92,14 +93,33 @@
 }
 
 .section__item {
-  flex-basis: 400px;
+  max-width: 250px;
+  min-width: 250px;
   padding: 20px;
   background: #3b3f4d;
   color: white;
   text-align: center;
   transition: 0.2s;
+  border-radius: 10px;
 }
 
 .section__item:hover {
   transform: scale(1.1);
+}
+
+.section__itemLink {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section__itemLink:hover {
+  background-color: #72727293;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.section__itemLink--title {
+  font-size: large;
+  font-weight: bold;
 }
