@@ -13,7 +13,7 @@
   }
 
   .section__element {
-
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
