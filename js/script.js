@@ -30,13 +30,26 @@
     })
   };
 
+  const contactChangeColor = () => {
+    const contactColor = document.querySelector(".contact");
+    contactColor.classList.toggle("contact__dark");
+  };
 
+  const contactChangeFont = () => {
+    const contactFontColor = document.querySelectorAll(".contact__link");
+    contactFontColor.forEach(contactFont =>{
+    contactFont.classList.toggle("contact__dark");
+  })
+  };
+  
   const init = () => {
     const changeBackgroundButton = document.querySelector(".button");
     changeBackgroundButton.addEventListener("click", bodyChangeBack);
     changeBackgroundButton.addEventListener("click", navigationChangeBack);
     changeBackgroundButton.addEventListener("click", articleChangeBack);
     changeBackgroundButton.addEventListener("click", sectionChangeBack);
+    changeBackgroundButton.addEventListener("click", contactChangeColor);
+    changeBackgroundButton.addEventListener("click", contactChangeFont);
 
     welcome()
   };
