@@ -87,18 +87,17 @@
 .section__element {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .section__item {
-  flex-basis: 300px;
-  padding: 10px;
-  background: #112152;
+  flex-basis: 400px;
+  padding: 20px;
+  background: #3b3f4d;
   color: white;
   text-align: center;
-  border-radius: 10%;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .section__item:hover {
