@@ -11,6 +11,16 @@
     themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
   };
 
+  const headerChangeFont = () => {
+    const headerColor = document.querySelector(".header__text");
+    headerColor.classList.toggle("header__dark");
+  };
+
+  const buttonChangeBack = () => {
+    const buttonChange= document.querySelector(".button__button");
+    buttonChange.classList.toggle("button__dark");
+  };
+
   const navigationChangeBack = () => {
     const navigationBackground = document.querySelectorAll(".navigation__link");
     navigationBackground.forEach(navigationBack => {
@@ -37,19 +47,23 @@
 
   const contactChangeFont = () => {
     const contactFontColor = document.querySelectorAll(".contact__link");
-    contactFontColor.forEach(contactFont =>{
-    contactFont.classList.toggle("contact__dark");
-  })
+    contactFontColor.forEach(contactFont => {
+      contactFont.classList.toggle("contact__dark");
+    })
   };
-  
+
+
   const init = () => {
     const changeBackgroundButton = document.querySelector(".button");
     changeBackgroundButton.addEventListener("click", bodyChangeBack);
+    changeBackgroundButton.addEventListener("click", headerChangeFont);
+    changeBackgroundButton.addEventListener("click", buttonChangeBack);
     changeBackgroundButton.addEventListener("click", navigationChangeBack);
     changeBackgroundButton.addEventListener("click", articleChangeBack);
     changeBackgroundButton.addEventListener("click", sectionChangeBack);
     changeBackgroundButton.addEventListener("click", contactChangeColor);
     changeBackgroundButton.addEventListener("click", contactChangeFont);
+
 
     welcome()
   };
