@@ -52,7 +52,7 @@
 
 .section__link {
   background-color: #7b7a71a3;
-  color: white;
+  color: #fff;
   text-decoration: none;
   padding: 5px 10px;
   margin: auto;
@@ -81,10 +81,6 @@
   font-weight: bold;
 }
 
-.section__dark {
-  background: rgb(147, 142, 142);
-}
-
 .section__element {
   display: flex;
   flex-direction: row-reverse;
@@ -97,7 +93,7 @@
   min-width: 250px;
   padding: 20px;
   background: #3b3f4d;
-  color: white;
+  color: #fff;
   text-align: center;
   transition: 0.2s;
   border-radius: 10px;
@@ -108,18 +104,23 @@
 }
 
 .section__itemLink {
-  color: white;
+  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 .section__itemLink:hover {
   background-color: none;
-  color: red;
+  color: #ff0000;
   outline: none;
 }
 
 .section__itemLink--title {
   font-size: large;
   font-weight: bold;
+}
+
+.section__dark {
+  background: grey;
+  color: white;
 }

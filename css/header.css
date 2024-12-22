@@ -13,3 +13,7 @@
   .header__textName {
     font-size: 16px;
   }
+
+  .header__dark {
+    color: #fff;
+  }
