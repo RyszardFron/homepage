@@ -6,21 +6,17 @@
 }
 
 .navigation__link {
-  background-color: #e4e6eb;
   border: none;
   padding: 15px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 
 .navigation__link:hover {
   transform: scale(1.4);
-  color: red;
+  color: #ff0000;
 }
 
 .navigation__dark {
-  background-color: #2c2f36;
-  color:#e4e6eb
+  color: #e4e6eb
 }
-
-
