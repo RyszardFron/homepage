@@ -114,8 +114,8 @@
 }
 
 .section__itemLink:hover {
-  background-color: #72727293;
-  border-bottom: 1px solid;
+  background-color: none;
+  color: red;
   outline: none;
 }
 
